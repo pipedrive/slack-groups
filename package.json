@@ -1,0 +1,33 @@
+{
+    "name": "slack-groups",
+    "version": "0.0.0",
+    "description": "Node.js module for updating Slack based on 3rd party services",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --coverage",
+        "test:unit": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pipedrive/slack-groups.git"
+    },
+    "author": "Pipedrive Inc",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pipedrive/slack-groups/issues"
+    },
+    "homepage": "https://github.com/pipedrive/slack-groups#readme",
+    "devDependencies": {
+        "eslint": "^6.4.0",
+        "eslint-config-pipedrive": "^5.0.0",
+        "jest": "^24.9.0"
+    },
+    "dependencies": {
+        "@hapi/joi": "^16.1.2",
+        "@slack/web-api": "^5.1.0",
+        "debug": "^4.1.1",
+        "dotenv": "^8.1.0",
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.7"
+    }
+}

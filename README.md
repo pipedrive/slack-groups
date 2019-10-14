@@ -17,10 +17,10 @@ To use as a standalone service, you first should copy the file `config.example.j
 The service also supports using a `.env` file, which you must create manually. To enable debugging you can add the value `DEBUG=*` to the `.env` file.
 
 ## Library
-Install the dependency with `npm i @pipedrive/slack-groups`
+Install the dependency with `npm i slack-groups`
 
 ```javascript
-const slackGroups = require('@pipedrive/slack-groups');
+const slackGroups = require('slack-groups');
 const runner = slackGroups({
 	// See `config.example.js` for an example config to pass in
 	...

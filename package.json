@@ -1,5 +1,5 @@
 {
-    "name": "slack-groups",
+    "name": "@pipedrive/slack-groups",
     "version": "0.0.1",
     "description": "Node.js module for updating Slack based on 3rd party services",
     "main": "index.js",

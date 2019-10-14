@@ -28,5 +28,5 @@ const runner = slackGroups({
 
 runner.start();
 // do stuff
-runner.cancel();// cancel anytime. call `runner.start()` to restart
+runner.cancel();// cancel anytime. call `runner.start()` to restart. optional
 ```

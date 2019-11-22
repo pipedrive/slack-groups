@@ -9,6 +9,7 @@ module.exports = {
 				opsgenie: 'My Team Schedule',
 			},
 			slackGroupName: 'my-team-oncall',
+			// can be an array as well
 			slackChannel: 'my-team-channel',
 		},
 	],

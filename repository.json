@@ -1,6 +1,6 @@
 {
 	"name": "slack-groups",
 	"description": "Node.js module for updating Slack based on 3rd party services",
-	"owner": "Pipedrive",
+	"owner": "Monitoring",
 	"type": "library"
 }

@@ -4,8 +4,8 @@
     "description": "Node.js module for updating Slack based on 3rd party services",
     "main": "index.js",
     "scripts": {
-        "test": "jest --coverage",
-        "test:unit": "jest",
+        "test": "jest --passWithNoTests",
+        "coverage": "jest --coverage --passWithNoTests",
         "lint": "eslint .",
         "sonar": "pipedrive-sonar-scanner"
     },

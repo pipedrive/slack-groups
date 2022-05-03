@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "jest --coverage",
-        "test:unit": "jest"
+        "test:unit": "jest",
+        "lint": "eslint .",
+        "sonar": "pipedrive-sonar-scanner"
     },
     "repository": {
         "type": "git",

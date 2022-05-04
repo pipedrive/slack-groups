@@ -6,8 +6,7 @@
     "scripts": {
         "test": "jest --coverage",
         "test:unit": "jest",
-        "lint": "eslint .",
-        "sonar": "pipedrive-sonar-scanner"
+        "lint": "eslint ."
     },
     "repository": {
         "type": "git",

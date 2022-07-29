@@ -1,6 +1,6 @@
 {
     "name": "slack-groups",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Node.js module for updating Slack based on 3rd party services",
     "main": "index.js",
     "scripts": {

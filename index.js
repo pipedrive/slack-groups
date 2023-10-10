@@ -1,10 +1,10 @@
 require('dotenv').config();
 const debug = require('debug')('slack-groups');
 
+const fs = require('fs');
 const Runner = require('./lib/runner');
 
 if (require.main === module) {
-	const fs = require('fs');
 	const configFile = './config.js';
 
 	if (!fs.existsSync(configFile)) {

@@ -1,7 +1,7 @@
 {
     "name": "slack-groups",
     "description": "Node.js module for updating Slack based on 3rd party services",
-    "owner": "Infra",
+    "owner": "SRE",
     "type": "library",
     "status": "released"
 }
